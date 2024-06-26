@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     environment {
-        REPO_URL = 'https://github.com/wasAmesha/CropMarketplace_CI_CD_Pipeline'
+        REPO_URL = 'https://github.com/wasAmesha/cropmarketplace_hosting.git'
         DOCKERHUB_CREDENTIALS = credentials('dockerPassword')
-        DOCKER_IMAGE_NAME = 'ameshawas/CropMarketplace'
+        DOCKER_IMAGE_NAME = 'ameshawas/cropmarket'
     }
     
     stages {
