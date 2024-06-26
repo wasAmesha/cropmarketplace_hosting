@@ -1,0 +1,5 @@
+{
+  "name": "default",
+  "db": "mongodb+srv://Weather99:chami1999928@weatherdb.kmumq9l.mongodb.net/?retryWrites=true&w=majority",
+  "jwtPrivateKey": "jwt-secret"
+}

@@ -1,0 +1,15 @@
+.billing-details {
+  flex: 2;
+  padding: 1rem;
+  padding-right: 3rem;
+  padding-top: 0rem;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.payment-summary {
+  flex: 1.2;
+  border: 1px solid;
+  padding: 1rem;
+  border-radius: 10px;
+}
