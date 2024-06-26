@@ -11,10 +11,10 @@ services:
     volumes:
       - mongo-data:/data/db
 
-  backend:
+  backend_new:
     build:
       context: ./backend
-    container_name: backend
+    container_name: backend_new
     ports:
       - "8000:8000"
     depends_on:
@@ -34,7 +34,7 @@ services:
     ports:
       - "3000:80"
     depends_on:
-      - backend
+      - backend_new
     volumes:
       - ./frontend:/app
 
