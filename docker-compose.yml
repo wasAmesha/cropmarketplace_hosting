@@ -27,10 +27,10 @@ services:
       - ./backend:/app
       - /app/node_modules
 
-  frontend:
+  frontend_new:
     build:
       context: ./frontend
-    container_name: frontend
+    container_name: frontend_new
     ports:
       - "3000:80"
     depends_on:
